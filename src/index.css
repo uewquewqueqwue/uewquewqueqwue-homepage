@@ -1,0 +1,55 @@
+html, body{
+  font-family: 'Press Start 2P', 'Share Tech Mono', monospace, cursive, sans-serif;;
+  font-size: 10px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+  padding: 0;
+  margin: 0;
+  
+  background-color: #2C2F3D;
+  background-image: url('../public/images/8bit_space.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 100vh;
+
+  color: #FDFCF2;
+}
+
+h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-family: 'Share Tech Mono';
+  font-size: 1.4em;
+}
+
+h4 {
+  font-family: 'Share Tech Mono';
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration:underline;
+  color: #FDFCF2;
+  cursor: pointer;
+}
+
+code {
+  font-family: 'Share Tech Mono', monospace
+}
