@@ -28,6 +28,7 @@ function App() {
                     <a
                       href='https://github.com/uewquewqueqwue'
                       target='_blank'
+                      rel="noreferrer"
                       className='decor'
                       style={{textDecoration: 'none'}}>uewquewqueqwue</a>
                   </h3>
@@ -36,6 +37,7 @@ function App() {
                     <a 
                       href='https://twitter.com/uewquewqueqwue' 
                       target='_blank'
+                      rel="noreferrer"
                       className='decor' 
                       style={{textDecoration: 'none'}}>@uewquewqueqwue</a>
                   </h3>
@@ -48,24 +50,24 @@ function App() {
               <div className='division-line' />
               <div className='links-items'>
                 <a href='https://github.com/uewquewqueqwue/uew-UsefulGitHub' 
-                  target='_blank' className='items-link' style={
+                  target='_blank' rel="noreferrer" className='items-link' style={
                   {width: '300px', whiteSpace: 'normal', lineHeight: '16px'}
                   }>USEFUL LINKS FOR FOR YOU IN THE GITHUB ENVIRONMENT</a>
                 <a 
                   href='https://github.com/uewquewqueqwue/Basics-PostgreSQL-in-python'
-                  target='_blank' className='items-link'>BASICS-POSTGRESQL-IN-PYTHON</a>
+                  target='_blank' rel="noreferrer" className='items-link'>BASICS-POSTGRESQL-IN-PYTHON</a>
                 <a 
                   href='https://github.com/uewquewqueqwue/Basics-MS-Access-in-python'
-                  target='_blank' style={{marginBottom: '36px'}} >BASICS-MS-ACCESS-IN-PYTHON</a>
+                  target='_blank' rel="noreferrer" style={{marginBottom: '36px'}} >BASICS-MS-ACCESS-IN-PYTHON</a>
               </div>
-              <h4 className='decor' style={{marginBottom: '10px'}}>My something</h4>
+              <h4 className='decor' style={{marginBottom: '10px'}}>You maybe interested</h4>
               <div className='division-line' />
               <div className='links-items' style={{marginBottom: '60px'}}>
-                <a href='https://github.com/neovim' target='_blank' className='items-link'>NEOVIM</a>
-                <a href='https://github.com/microsoft/vscode' target='_blank' className='items-link'>VISUAL STUDIO CODE</a>
-                <a href='https://lottiefiles.com/' target='_blank' className='items-link'>LOTTIEFILES</a>
-                <a href='https://unicodeplus.com/' target='_blank' className='items-link'>UNICODEPLUS</a>
-                <a href='https://fonts.google.com/' target='_blank' style={{marginBottom: '60px'}} >GOOGLE FONTS</a>
+                <a href='https://github.com/neovim' target='_blank' rel="noreferrer" className='items-link'>NEOVIM</a>
+                <a href='https://github.com/microsoft/vscode' target='_blank' rel="noreferrer" className='items-link'>VISUAL STUDIO CODE</a>
+                <a href='https://lottiefiles.com/' target='_blank' rel="noreferrer" className='items-link'>LOTTIEFILES</a>
+                <a href='https://unicodeplus.com/' target='_blank' rel="noreferrer" className='items-link'>UNICODEPLUS</a>
+                <a href='https://fonts.google.com/' target='_blank' rel="noreferrer" style={{marginBottom: '60px'}} >GOOGLE FONTS</a>
               </div>
               <h2>Good day to you</h2>
             </div>

@@ -19,6 +19,7 @@ function Nopage() {
               <a 
                 href='https://twitter.com/Gaziter/status/1111689353426845697' 
                 target='_blank' 
+                rel="noreferrer"
                 className='decor'>Author</a> this GIF</h3>
           </div>
         </div>
