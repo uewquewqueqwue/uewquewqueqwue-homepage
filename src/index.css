@@ -1,5 +1,5 @@
 html, body{
-  font-family: 'Press Start 2P', 'Share Tech Mono', monospace, cursive, sans-serif;;
+  font-family: 'Press Start 2P', 'Share Tech Mono', Roboto, monospace, cursive, Fira Sans, sans-serif;;
   font-size: 10px;
 
   -webkit-font-smoothing: antialiased;
@@ -9,7 +9,6 @@ html, body{
   margin: 0;
   
   background-color: #2C2F3D;
-  background-image: url('../public/images/8bit_space.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,11 +33,6 @@ h2 {
 }
 
 h3 {
-  font-family: 'Share Tech Mono';
-  font-size: 1.4em;
-}
-
-h4 {
   font-family: 'Share Tech Mono';
   font-size: 1.4em;
 }

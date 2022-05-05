@@ -1,3 +1,7 @@
+body {
+  background-image: url('../public/images/8bit_space.webp');
+}
+
 .wrapper {
   margin: 0 100px 0;
   padding-top: 100px;
@@ -8,18 +12,14 @@
   justify-content: space-between;
 }
 
-.col-1 {
+.col {
   display: flex;
   flex-direction: column;
 }
 
-.col-2 {
+.girls {
   display: flex;
-  flex-direction: column;
-}
-
-.el-up {
-  margin-bottom: 520px;
+  justify-content: center;
 }
 
 .division-line {
@@ -35,26 +35,33 @@
   max-width: 320px;
 }
 
-.about-us-items {
+.about-us a {
+  text-decoration: none;
+}
+
+.con-items {
   display: flex;
   flex-direction: column;
 }
 
-.about-us-items:nth-child(2) {
-  margin-left: 60px;
-}
-
-.items-name {
+.item-name {
   margin-bottom: 10px;
+  text-transform: lowercase;
 }
 
-.links-items {
-  display: flex;
-  flex-direction: column;
-}
-
-.items-link {
+.item-link {
   margin-bottom: 25px;
+
+  align-items: flex-start;
+  text-transform: uppercase;
+}
+
+.names .item-name {
+  text-transform: uppercase;
+}
+
+.item-link:last-child, .item-name:last-child {
+  margin-bottom: 0;
 }
 
 .decor {
